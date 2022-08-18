@@ -13,11 +13,11 @@ function App() {
           <ul>
             <li>
               <img src={dashboard}/>
-              <p>Dashboard</p>
+              <p>Perfil</p>
             </li>
             <li>
               <img src={personagens}/>
-              <p>personagens</p>
+              <p>Personagens</p>
             </li>
             <li>
               <img src={naves}/>
