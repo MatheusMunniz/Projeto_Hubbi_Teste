@@ -58,7 +58,7 @@ ul {
   width: 240px;
   margin-bottom: 20px;
 }
-
+/* CARDS */
 .card .card-content {
   display: flex;
   justify-content: space-around;
@@ -77,6 +77,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: bold;
 
 }
 .card-info h2 {
@@ -89,7 +90,7 @@ ul {
   font-size: 16px;
 }
 
-/* ESTILO CENTRO */
+/* CENTRO */
 .Centro h1{
   text-align: center;
   margin: 4rem 0;

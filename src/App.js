@@ -17,7 +17,7 @@ import TieFighter from './assets/fotos/tie-fighter.jpg'
 import DL44 from './assets/fotos/dl-44.jpg'
 import Sabre from './assets/fotos/lightsaber.jpg'
 import Granada from './assets/fotos/grenade.png'
-import perfil from './pages/perfil/index'
+//Import Icones Pretos
 import pblack from './assets/persoblack.svg'
 import naveblack from './assets/naveblack.svg'
 import armablack from './assets/armablack.svg'
