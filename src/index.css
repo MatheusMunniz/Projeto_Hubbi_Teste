@@ -6,12 +6,16 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-family: 'Roboto', sans-serif;
+  
 }
+
+/* MENU LATERAL */
 ul {
   list-style: none;
 }
 .container {
   display: flex;
+  background: #000;
 }
 .lateral-menu {
   background: #000;
@@ -52,6 +56,7 @@ ul {
   margin: 0 20px;
   height: 132px;
   width: 240px;
+  margin-bottom: 20px;
 }
 
 .card .card-content {
@@ -82,4 +87,39 @@ ul {
 
 .card-info p {
   font-size: 16px;
+}
+
+/* ESTILO CENTRO */
+.Centro h1{
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.Centro ul{
+  margin: 30px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  row-gap: 4rem;
+}
+.Centro li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Centro img {
+  width: 180px;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.Centro span {
+  font-weight: bold;
+  font-size: 120%;
+}
+a {
+  transition: all 0.3s;
+}
+.Centro a:hover {
+  transform: scale(1.1);
 }
