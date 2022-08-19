@@ -55,6 +55,7 @@ function App() {
                 <div className="card-info">
                   <p>Naves</p>
                   <h2>22</h2>
+                  
                 </div>
                 <img src={naveblack}/>   
               </div>
